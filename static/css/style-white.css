@@ -339,8 +339,9 @@
     text-transform: none;
     letter-spacing: normal;
     font-weight: bold;
-    font-size: 1.5rem;
+¸    font-size: 1.5rem;
   }
+
   body h3 {
     color: #383838;
     /*text-decoration: underline;*/
@@ -1123,12 +1124,12 @@
   }
   article .content h2:before {
     position: absolute;
-    top: -4px;
-    left: -1rem;
+    /* top: -4px; */
+    left: -2rem;
     color: #2bbc8a;
     content: "#";
     font-weight: bold;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
   article .content img,
   article .content video {
