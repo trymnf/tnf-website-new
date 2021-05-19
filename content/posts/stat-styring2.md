@@ -19,4 +19,4 @@ abstract: true
 
 En utbredt begrunnelse for å delegere makt til uavhengige ekspertbyråer er at de bare befatter seg med tekniske spørsmål. De tar avgjørelser basert på vitenskapelige vurderinger eller andre typer ekspertise, uten politisk innblanding. Kravet om objektive vurderinger kan være en kilde til makt, innflytelse og legitimitet, men kan også brukes til å begrense byråers makt.
 
-(Article for the Norwegian magazine *Stat & Styring.*)
+(Outreach article in Norwegian.)
