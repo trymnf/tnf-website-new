@@ -10,10 +10,10 @@ name = "Home"
 url = "/"
 weight = 1
 
-# [[menu.main]]
-# name = "Blog"
-# url = "/blog"
-# weight = 2
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
 
 [[menu.main]]
 name = "Publications"
@@ -28,6 +28,7 @@ weight = 3
 
   dateFormat = "2006"
   dateFormatList = "1 January 2006"
+  dateFormatBlog = "1 January 2006"
 
   [[params.social]]
     name = "twitter"
