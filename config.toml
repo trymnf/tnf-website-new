@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://cranky-golick-fdbc5d.netlify.app"
 languageCode = "en-us"
 title = "Trym Nohr Fjørtoft"
 theme="cactus"
