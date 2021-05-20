@@ -10,7 +10,7 @@ status: Published
 type: published
 kind: article
 outlet: Stat & Styring
-citation: Teknisk ekspertise kan være en politisk ressurs. <em>Stat & styring</em> 3 (2020). 
+citation: '"Teknisk ekspertise kan være en politisk ressurs". <em>Stat & styring</em> 3 (2020).'
 tag: 
 comments: no
 publishdate: 2020-10-01
