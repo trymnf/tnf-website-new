@@ -1,0 +1,72 @@
+{{ define "main"}}
+<div id="archive">
+
+  <h2>Articles and book chapters</h2>
+
+{{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
+
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<ul class="post-list">
+  <li class="post-item">
+      <div class="meta">
+        <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+      </span>
+    </li>
+</ul>
+
+{{ end }}
+{{ end }}  
+  
+
+  <h2>Essays and reviews</h2>
+  
+{{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
+
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<ul class="post-list">
+  <li class="post-item">
+      <div class="meta">
+        <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+      </span>
+    </li>
+</ul>
+
+{{ end }}
+{{ end }}
+
+<!-- Uncomment to add working papers: -->
+
+<!-- <h2>Working Papers</h2>
+
+{{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
+
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<ul class="post-list">
+  <li class="post-item">
+      <div class="meta">
+        <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+      </span>
+    </li>
+</ul>
+
+{{ end }}
+{{ end }}  -->
+
+  {{ partial "pagination.html" . }}
+</div>
+{{ end }}
+
+
+

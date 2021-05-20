@@ -12,7 +12,7 @@ kind: article
 citation: '"More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis." <em>Regulation & Governance</em>. '
 tag: Frontex
 comments: no
-publishdate: 2020-01-01
+publishdate: 2020-11-01
 abstract: true
 tags: [Frontex, expertise, legitimacy, border control]
 ---
