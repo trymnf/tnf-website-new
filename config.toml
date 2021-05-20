@@ -1,4 +1,4 @@
-baseURL = "https://www.trymnf.com"
+baseURL = "https://www.trymnf.com/"
 languageCode = "en-us"
 title = "Trym Nohr Fjørtoft"
 theme="cactus"
