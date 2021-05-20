@@ -9,7 +9,7 @@ author: Trym Nohr Fjørtoft
 status: Published
 type: published
 kind: article
-citation: '"More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis." <em>Regulation & Governance</em>. '
+citation: '“More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis.” <em>Regulation & Governance</em>. '
 tag: Frontex
 comments: no
 publishdate: 2020-11-01
