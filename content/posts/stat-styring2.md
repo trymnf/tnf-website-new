@@ -1,6 +1,6 @@
 ---
 title: "Teknisk ekspertise kan være en politisk ressurs"
-date: 2021-05-18T22:04:19+02:00
+date: 2020-10-01
 draft: false
 fave: true
 file: teknisk_ekspertise_kan_vaere_en_politisk_ressurs.pdf

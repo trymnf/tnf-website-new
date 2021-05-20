@@ -41,13 +41,17 @@
   <section id="pubs" class="pubs">
 <h1><a href="posts/">Publications</a></h1>  
 
-{{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
-<ul class = post-list>
-  {{ range (where .Site.RegularPages "Section" "in" (slice "posts")) }}  
 
+{{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+
+{{ range (sort (where .Site.RegularPages "Section" "in" (slice "posts")) "Date" "desc") }}  
+
+<ul class = post-list>
+  
   {{ if .Params.fave }}
 
   {{ if .Params.citation }}
+
   <li class="post-item">
     <div class="meta"><time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format $dataFormat }}</time></div>
     <span>
@@ -58,19 +62,21 @@
   </span>
   </li>
 
+
   {{ else }}
 
     <li>
       <a href="{{ .Permalink }}"> {{ .Params.title | safeHTML }} </a>
     </li>
 
+
   {{ end }}
  
   {{ end }}
-
-  {{ end }}
   
-</ul>  
+</ul> 
+{{ end }}
+
 </section>
 
 
