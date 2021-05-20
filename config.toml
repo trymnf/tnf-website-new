@@ -35,4 +35,7 @@ weight = 3
     link = "http://twitter.com/trymnf"
   [[params.social]]
     name = "email"
-    link = "trymnf@uio.no" 
+    link = "trymnf@uio.no"
+  [[params.social]]
+    name = "scholar"
+    link = "https://scholar.google.com/citations?user=QzKZFhYAAAAJ"
