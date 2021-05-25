@@ -5,7 +5,7 @@ draft: false
 fave: false
 file: 
 doi: 
-link: https://www.sv.uio.no/arena/forskning/aktuelt/aktuelle-saker/2017/johan-p-olsen-democracy.html?fbclid=IwAR25Cr6DybwX-GZQnMTNWfV3he42zGGEqE4ut_7VNrjsOWi7p5nS-dJjrBU
+link: https://www.sv.uio.no/arena/forskning/aktuelt/aktuelle-saker/2017/johan-p-olsen-democracy.html
 author: Trym Nohr Fjørtoft and Hanne Iglebæk Christensen
 outlet: ARENA Centre for European Studies
 status: Published
@@ -21,3 +21,5 @@ abstract: true
 ## An interview with Johan P. Olsen 
 
 This is an interview with Prof. Johan P. Olsen that I did together with Hanne Iglebæk Christensen in 2017. (In Norwegian.)
+
+[&rarr: Full text](https://www.sv.uio.no/arena/forskning/aktuelt/aktuelle-saker/2017/johan-p-olsen-democracy.html)
