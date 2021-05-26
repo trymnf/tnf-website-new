@@ -781,7 +781,7 @@
     color: #2bbc8a;
   }
   #header-post #nav ul a:hover {
-    background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+    /*background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);*/
     background-position: bottom;
     background-size: 100% 6px;
     background-repeat: repeat-x;
