@@ -56,8 +56,8 @@
     <div class="meta"><time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format $dataFormat }}</time></div>
     <span>
     {{ .Params.citation | safeHTML }}     
-    {{ if isset .Params "file" }}<a href="files/papers/{{ .Params.file }}">PDF</a> / {{ end }}
-    {{ if isset .Params "abstract" }} <a href="{{ .Permalink }}">Abstract</a>  {{ end }}
+    {{ if isset .Params "file" }}<a href="files/papers/{{ .Params.file }}"><strong>PDF</strong></a> / {{ end }}
+    {{ if isset .Params "abstract" }} <a href="{{ .Permalink }}"><strong>Abstract</strong></a>  {{ end }}
     {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }}
   </span>
   </li>

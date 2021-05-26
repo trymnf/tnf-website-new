@@ -32,6 +32,7 @@ weight = 4
 
   showProjectsList = false
 
+
   dateFormat = "2006"
   dateFormatList = "1 January 2006"
   dateFormatBlog = "1 January 2006"
