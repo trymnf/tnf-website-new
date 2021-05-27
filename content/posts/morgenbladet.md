@@ -17,4 +17,4 @@ publishdate: 2021-02-19
 abstract: true
 ---
 
-Interview in Morgenbladet (in Norwegian) about the allegations against Frontex's involvement in illegal pushbacks. 
+Interview in Morgenbladet (in Norwegian) about Frontex's alleged involvement in illegal pushbacks. 
