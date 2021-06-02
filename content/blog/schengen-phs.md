@@ -1,5 +1,5 @@
 ---
-title: "Kommentarer til rapport om Schengen-evalueringene"
+title: "Kommentar til rapport om Schengen-evalueringene"
 date: 2020-11-19
 draft: false
 fave: false
