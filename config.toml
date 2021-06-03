@@ -38,11 +38,14 @@ weight = 4
   dateFormatBlog = "1 January 2006"
 
   [[params.social]]
-    name = "twitter"
-    link = "http://twitter.com/trymnf"
-  [[params.social]]
     name = "email"
     link = "trymnf@uio.no"
   [[params.social]]
+    name = "twitter"
+    link = "http://twitter.com/trymnf"
+  [[params.social]]
     name = "scholar"
     link = "https://scholar.google.com/citations?user=QzKZFhYAAAAJ"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/trymnf"
