@@ -652,7 +652,7 @@
   #header:hover #logo {
     filter: none;
     -webkit-filter: none;
-    transition: filter 1s linear;
+    transition: filter 0.5s linear;
   }
 
   @media screen and (max-width: 480px) {
