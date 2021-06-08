@@ -4,8 +4,8 @@
     <div id="logo" style="background-image: url(https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar }}?s=100&d=identicon)"></div>
   {{ else if (isset .Site.Params "logo") }}
     <div id="logo" style="background-image: url({{ .Site.Params.logo | absURL }})"></div>
-  {{ else }}
-    <div id="logo" style="background-image: url({{ "images/logo.png" | absURL }})"></div>
+  {{ else if (isset .Site.Params "logo-svg")}}
+   <div id="logo"> {{ readFile "static/images/logo.svg" | safeHTML }} </div>
   {{ end}}
   <div id="title">
     <h1>{{ .Site.Title }}</h1>

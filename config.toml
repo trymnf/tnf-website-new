@@ -31,7 +31,8 @@ weight = 4
   description = 'I am a PhD researcher at <a href="https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html" target=_blank>ARENA Centre for European Studies</a>, University of Oslo. I’m currently working on the role and legitimacy of expertise in EU agencies.'
 
   showProjectsList = false
-
+  
+  logo-svg = true
 
   dateFormat = "2006"
   dateFormatList = "1 January 2006"
