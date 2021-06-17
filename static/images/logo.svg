@@ -1,31 +1,4 @@
 <svg width="80" height="80" viewBox="300 450 1100 1000" xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2">
-
- <style> .anim {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-}
-
-#header:hover .anim{
- animation: dash 3s ease-in-out forwards;
- stroke-dashoffset:  0;
- transition: fill 3s ease-in-out;
-}
-
-path{
-  pointer-events: all;
-}
-
-
-@keyframes dash {
-  from {
-    stroke-dashoffset:  1;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-  </style>
  
  <title>Svg</title>
 

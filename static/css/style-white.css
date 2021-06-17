@@ -655,6 +655,31 @@
     transition: filter 0.5s linear;
   }
 
+   .anim {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+#header:hover .anim{
+ animation: dash 3s ease-in-out forwards;
+ stroke-dashoffset:  0;
+ transition: fill 3s ease-in-out;
+}
+
+path{
+  pointer-events: all;
+}
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset:  1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
   @media screen and (max-width: 480px) {
     #header #title {
       display: table;
