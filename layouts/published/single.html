@@ -15,6 +15,7 @@
           {{ if .Params.doi }}<h4 class="doi"><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
           {{ if .Params.link }}<h4 class="doi"><a href="{{.Params.link}}">Link ({{ .Params.outlet }})</a>{{ end }} 
           {{ if .Params.file }}<a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; (&rarr; PDF)</a></h4>{{ end }}
+          {{ if .Params.data }}<h4 class="doi"><a href="{{.Params.data}}">(&rarr; Code & data)</a>{{ end }}
           {{ if .Params.buy }} {{ .Params.buy | safeHTML }} {{ end }}
       
       <div class="meta">
