@@ -5,7 +5,7 @@
     {{ $pageYear := (.Date.Format "2006") }}
     {{ if (ne $pageYear ($.Scratch.Get "year")) }}
     {{ $.Scratch.Set "year" $pageYear }}
-    <h3>{{ $pageYear }}</h3>
+    <!-- <h3>{{ $pageYear }}</h3> -->
     {{ end }}
     <li class="post-item">
       <div class="meta">

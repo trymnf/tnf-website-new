@@ -36,7 +36,7 @@ weight = 4
 
   dateFormat = "2006"
   dateFormatList = "1 January 2006"
-  dateFormatBlog = "1 January 2006"
+  dateFormatBlog = "2006-01-02"
 
   [[params.social]]
     name = "email"
