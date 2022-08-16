@@ -4,7 +4,7 @@ date: 2020-10-01
 draft: false
 fave: true
 file: teknisk_ekspertise_kan_vaere_en_politisk_ressurs.pdf
-link: https://www-idunn-no.ezproxy.uio.no/stat/2020/03/teknisk_ekspertise_kan_vaere_en_politisk_ressurs
+doi: 10.18261/ISSN0809-750X-2020-03-05
 author: Trym Nohr Fjørtoft
 status: Published
 type: other
