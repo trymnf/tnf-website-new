@@ -1,6 +1,6 @@
 ---
 title: "The Legitimizing Role of Expertise in Frontex after the Refugee Crisis"
-date: 2020-11-17
+date: 2022-11-17
 draft: false
 fave: true
 file: Fjortoft2020-Frontex-RG.pdf
@@ -9,10 +9,10 @@ author: Trym Nohr Fjørtoft
 status: Published
 type: published
 kind: article
-citation: '“More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis.” <em>Regulation & Governance</em>. '
+citation: 'Fjørtoft, Trym Nohr. 2022. “More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis.” <em>Regulation & Governance</em> 16 (2): 557–71.'
 tag: Frontex
 comments: no
-publishdate: 2020-11-17
+publishdate: 2022-11-17
 abstract: true
 tags: [Frontex, expertise, legitimacy, border control]
 ---

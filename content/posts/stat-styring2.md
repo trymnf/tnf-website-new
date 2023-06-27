@@ -2,7 +2,7 @@
 title: "Teknisk ekspertise kan være en politisk ressurs"
 date: 2020-10-01
 draft: false
-fave: true
+fave: false
 file: teknisk_ekspertise_kan_vaere_en_politisk_ressurs.pdf
 doi: 10.18261/ISSN0809-750X-2020-03-05
 author: Trym Nohr Fjørtoft

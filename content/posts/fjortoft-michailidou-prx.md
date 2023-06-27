@@ -10,7 +10,7 @@ author: "Trym Nohr Fjørtoft and Asimina Michailidou"
 status: Published
 type: published
 kind: article
-citation: '“Beyond expertise: the public construction of legitimacy for EU agencies.” <em>Political Research Exchange</em>.'
+citation: 'Fjørtoft, Trym Nohr, and Asimina Michailidou. 2021. “Beyond Expertise: The Public Construction of Legitimacy for EU Agencies.” <em>Political Research Exchange</em> 3 (1): 1–26.'
 tags: [legitimacy, expertise, democracy, "EU agencies"]
 comments: no
 publishdate: 2021-12-21
