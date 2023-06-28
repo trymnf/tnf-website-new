@@ -9,7 +9,7 @@ author: "Trym Nohr Fjørtoft and Hallvard Sandven"
 status: Published
 type: published
 kind: article
-citation: 'Fjørtoft, Trym Nohr, and Hallvard Sandven. "Symmetry in the Delegation of Power as a Legitimacy Criterion." <em>Journal of Common Market Studies</em> 61 (4): 900–916.' 
+citation: '"Symmetry in the Delegation of Power as a Legitimacy Criterion." <em>Journal of Common Market Studies</em> 61 (4): 900–916.' 
 tags: ["border control", "delegation", "EASO", "Frontex", "legitimacy", "migration"]
 comments: no
 publishdate: 2023-06-27

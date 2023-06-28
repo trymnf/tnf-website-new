@@ -1265,9 +1265,7 @@ path{
     }
     .article-read-time:before,
     .article-tag:before,
-    .article-category:before {
-      content: "|";
-    }
+    .article-category:before
   }
   #archive .post-list {
     padding: 0;
