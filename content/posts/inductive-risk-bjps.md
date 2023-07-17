@@ -1,17 +1,18 @@
 ---
 title: "Inductive Risk and the Legitimacy of Non-Majoritarian Institutions"
-date: 2023-06-27T09:49:03+02:00
-draft: true
+date: 2023-07-06T09:49:03+02:00
+draft: false
 fave: true
-file: 
+file: "Fjortoft2023_inductive-risk-and-the-legitimacy-of-non-majoritarian-institutions.pdf"
 doi: 10.1017/S0007123423000200
 author: Trym Nohr Fjørtoft
 status: Published
+type: published
 kind: article
-citation: 'Fjørtoft, Trym Nohr. Forthcoming. “Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em>.'
+citation: '“Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em>.'
 tag:
 comments: no
-publishdate: 2023-06-01
+publishdate: 2023-07-06
 abstract: true
 ---
 
