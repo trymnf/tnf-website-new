@@ -17,7 +17,7 @@ weight = 2
 
 [[menu.main]]
 name = "Publications"
-url = "/posts"
+url = "/publications"
 weight = 3
 
 [[menu.main]]

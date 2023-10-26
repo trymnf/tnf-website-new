@@ -20,7 +20,7 @@ publishdate: 2022-02-14
 abstract: true
 ---
 
-*This post is written with Asimina Michailidou and was first published at [The Loop](https://theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/).* It builds on the findings in our [PRX article](/posts/fjortoft-michailidou-prx/).
+*This post is written with Asimina Michailidou and was first published at [The Loop](https://theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/).* It builds on the findings in our [PRX article](/publications/fjortoft-michailidou-prx/).
 
 ---
 

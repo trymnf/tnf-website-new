@@ -18,7 +18,7 @@ publishdate: 2020-04-10
 abstract: true
 ---
 
-*Here's a blog post I wrote for the [TARN blog](https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex/) in 2020. It builds on the same ideas and research as my [Regulation & Governance](/posts/frontex/) piece.*
+*Here's a blog post I wrote for the [TARN blog](https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex/) in 2020. It builds on the same ideas and research as my [Regulation & Governance](/publications/frontex/) piece.*
 
 ## The refugee crisis and its aftermath
 

@@ -68,12 +68,12 @@
 
 
   <section id="pubs" class="pubs">
-<h1><a href="posts/">Selected publications</a></h1>  
+<h1><a href="publications/">Selected publications</a></h1>  
 
 
 {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
 
-{{ range (sort (where .Site.RegularPages "Section" "in" (slice "posts")) "Date" "desc") }}  
+{{ range (sort (where .Site.RegularPages "Section" "in" (slice "publications")) "Date" "desc") }}  
 
 <ul class = post-list>
   
