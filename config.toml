@@ -28,7 +28,7 @@ weight = 4
 
 [params]
 
-  description = 'I&apos;m a political scientist working on single-market governance; democracy, delegation and the legitimacy of unelected bodies; and migration and border control. I work as a postdoctoral fellow at <a href="https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html" target=_blank>ARENA Centre for European Studies</a>, University of Oslo, where I&apos;m part of the <a href="https://www.sv.uio.no/arena/english/research/projects/singlemarkets/">SINGLEMARKETS</a> project.'
+  description = 'I&apos;m a political scientist working on single-market governance; democracy, delegation and the legitimacy of unelected bodies; and migration and border control. I work as a postdoctoral fellow at <a href="https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html" target=_blank>ARENA Centre for European Studies</a>, University of Oslo, as part of the <a href="https://www.sv.uio.no/arena/english/research/projects/singlemarkets/">SINGLEMARKETS</a> project.'
 
   showProjectsList = false
   
@@ -41,9 +41,6 @@ weight = 4
   [[params.social]]
     name = "email"
     link = "trymnf@uio.no"
-  [[params.social]]
-    name = "twitter"
-    link = "http://twitter.com/trymnf"
   [[params.social]]
     name = "bluesky"
     link = "https://bsky.app/profile/trymnf.bsky.social"  
