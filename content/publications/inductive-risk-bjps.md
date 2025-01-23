@@ -8,7 +8,7 @@ doi: 10.1017/S0007123423000200
 author: Trym Nohr Fjørtoft
 status: Published
 type: published
-kind: article
+
 citation: '“Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em> 54 (2): 389–404.'
 tags: ["inductive risk", "legitimacy", "central bank independence", "non-majoritarian institutions", "value freedom"]
 comments: no

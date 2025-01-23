@@ -8,7 +8,7 @@ link: https://www.vl.no/nyheter/2021/05/28/eus-grensepoliti-saksokes-for-a-press
 outlet: Vårt Land
 author: Ismail Burak Akkan
 status: Published
-kind: article
+
 citation: "&ldquo;EUs grensepoliti saksøkes for å presse flyktninger på havet&rdquo;, <em>Vårt Land</em>, 28 May 2021"
 type: media
 tags: 

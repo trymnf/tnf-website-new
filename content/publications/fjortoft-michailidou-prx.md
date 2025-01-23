@@ -9,7 +9,7 @@ data: https://github.com/trymnf/public-legitimacy-replication
 author: "Trym Nohr Fjørtoft and Asimina Michailidou"
 status: Published
 type: published
-kind: article
+
 citation: '“Beyond Expertise: The Public Construction of Legitimacy for EU Agencies.” <em>Political Research Exchange</em> 3 (1): 1–26. (With Asimina Michailidou.)'
 tags: [legitimacy, expertise, democracy, "EU agencies"]
 comments: no

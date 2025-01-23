@@ -8,7 +8,7 @@ file: "farligere-enn-noensinne.pdf"
 link: https://klassekampen.no/utgave/2022-08-01/farligere-enn-noensinne
 author: Mathias Gjesdal Hammer
 status: Published
-kind: article
+
 type: media
 citation: "&ldquo;Farligere enn noensinne&rdquo;, <em>Klassekampen,</em> 1 August 2022."
 tags: [Frontex, media]

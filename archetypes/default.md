@@ -7,7 +7,7 @@ file:
 doi: 
 author: Trym Nohr Fjørtoft
 status: Published
-kind: article
+
 citation: 
 tag:
 comments: no

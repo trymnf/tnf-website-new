@@ -9,7 +9,7 @@ doi:
 link: https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex/
 author: Trym Nohr Fjørtoft
 status: Published
-kind: article
+
 type: posts
 citation: 
 tags: [frontex, expertise]

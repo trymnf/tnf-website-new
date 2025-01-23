@@ -5,7 +5,7 @@ draft: false
 fave: false
 author: Trym Nohr Fjørtoft
 status: Published
-kind: article
+
 type: posts
 citation: "Kommentarer til rapporten <em>Schengen evaluation: An educational experience. The example of Norway</em>."
 tags: 
@@ -20,13 +20,11 @@ abstract: true
 
 --- 
 
-![Schengen evaluation: An educational experience. The example of Norway. Omslag.](https://www.politihogskolen.no/globalassets/forskning/forskningsaktivitet-bilder/schengen-evaluation-politihogskolen.jpg)
-
 Takk for invitasjonen og en fin introduksjon. Jeg er glad for  anledningen til å kommentere på denne spennende rapporten. 
 
 Det finnes lite forskning på Schengen-evalueringene. Frontex har fått relativt mye oppmerksomhet, mens Schengen-evalueringer i beste fall blir nevnt, men sjeldent gått i dybden på. Dette er derfor unektelig et verdifullt bidrag til kunnskapen om dette viktige verktøyet, både for praktiserende "i felten," byråkrater og akademikere. 
 
-## Rapportens viktigste bidrag 
+## Rapportens viktigste bidrag
 
 Denne rapporten har mange kvaliteter. Dette er etter mitt syn de sterkeste: 
 
@@ -67,7 +65,7 @@ Jeg vil også igjen påpeke at rapporten er banebrytende i at den kommer med ny 
 
 ## Noen utfordringer
 
-### Hvordan definerer vi profesjonell, og hvorfor dette fokuset? 
+### Hvordan definerer vi profesjonell, og hvorfor dette fokuset?
 
 Rapporten spør om Schengen-evalueringene har bidratt til økt profesjonalitet i norsk grensekontroll, og svarer et ganske tydelig ja. 
 
@@ -81,7 +79,7 @@ Hvordan ser det ut når en praksis eller en aktør er uprofesjonell, og hvordan 
 
 Blir vi først og fremst mer profesjonelle i å svare på Schengen-evalueringene, eller også i stort? Blir enkeltmennesker mer profesjonelle, eller handler det om institusjonene de jobber i? Har politiet begynt å se etter andre typer folk og ferdigheter når de ansetter nå, som følge av Schengen-evalueringene? Dette ønsker jeg også å invitere til litt refleksjon rundt. 
 
-### Kan det finnes negative konsekvenser av evalueringene? 
+### Kan det finnes negative konsekvenser av evalueringene?
 
 Så ønsker jeg å invitere til refleksjon rundt "forskningsdesignet" i stort. Vi blir presentert med mange hypoteser. Noen negative, noen positive. Men de blir ikke testet i noen veldig strukturert forstand. Det er i og for seg helt forståelig. Men likevel: Når man spør om effekten av et tiltak -- som Schengenevaluering -- spør man implisitt om hvordan ting hadde sett ut om tiltaket ikke hadde eksistert. Med så mange hypoteser er faren at man plukker opp de som ser mest lovende ut og lar alle andre ligge. Det kan i verste fall gi et skjevt bilde. 
 
@@ -93,7 +91,7 @@ I parentes kan en også bemerke at det surveyen kartlegger er respondentenes *in
 
 Rapporten demonstrerer godt at effekten av evalueringene har vært positiv, men denne konklusjonen ville vært enda sterkere om alternative hypoteser ble vurdert i større grad. 
 
-## Refleksjoner: Evaluering som makt og politikk 
+## Refleksjoner: Evaluering som makt og politikk
 
 Til slutt ønsker jeg å  spekulere litt rundt evaluering som maktmiddel, og se Schengen-evaluering i sammenheng med EU-systemet i stort. 
 

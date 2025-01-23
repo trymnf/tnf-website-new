@@ -8,7 +8,7 @@ doi: 10.18261/ISSN0809-750X-2020-03-05
 author: Trym Nohr Fjørtoft
 status: Published
 type: other
-kind: article
+
 outlet: Stat & Styring
 citation: '“Teknisk ekspertise kan være en politisk ressurs”. <em>Stat & styring</em>.'
 tag: 

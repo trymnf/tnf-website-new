@@ -7,7 +7,7 @@ author:
     - Trym Nohr Fjørtoft
     - Asimina Michailidou
 status: Published
-kind: article
+
 type: posts
 link: https://theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/
 citation: "What drives public acceptance of expert agencies?"

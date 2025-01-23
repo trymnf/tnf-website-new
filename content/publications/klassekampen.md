@@ -8,7 +8,7 @@ file: "EU-ser-mot-yttergrensa.pdf"
 link: https://klassekampen.no/utgave/2020-11-13/eu-ser-mot-yttergrensa
 author: Martin Uleberg
 status: Published
-kind: article
+
 type: media
 citation: "&ldquo;EU ser mot yttergrensa&rdquo;, <em>Klassekampen,</em> 13 November 2020."
 tags: [Frontex, media]

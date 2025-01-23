@@ -8,7 +8,7 @@ file: frontex-i-skuddlinjen.pdf
 link: https://www.morgenbladet.no/aktuelt/utenriks/2021/02/19/frontex-i-skuddlinjen/    
 author: Sten Inge Jørgensen
 status: Published
-kind: article
+
 type: media
 citation: "&ldquo;Frontex i skuddlinjen&rdquo;, <em>Morgenbladet,</em> 19 February 2021."
 tags: [Frontex, media]
