@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eu-agencies/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/expertise/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/research-relay/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/legitimacy/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/central-bank-independence/</loc>
     <lastmod>2023-07-06T09:49:03+02:00</lastmod>
   </url><url>
@@ -11,19 +32,10 @@
     <loc>http://localhost:1313/publications/inductive-risk-bjps/</loc>
     <lastmod>2023-07-06T09:49:03+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/legitimacy/</loc>
-    <lastmod>2023-07-06T09:49:03+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/non-majoritarian-institutions/</loc>
     <lastmod>2023-07-06T09:49:03+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
-    <lastmod>2023-07-06T09:49:03+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-07-06T09:49:03+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2023-07-06T09:49:03+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/value-freedom/</loc>
@@ -47,9 +59,6 @@
     <loc>http://localhost:1313/publications/fjortoft-sandven-jcms/</loc>
     <lastmod>2023-06-27T09:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/expertise/</loc>
-    <lastmod>2022-11-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/publications/frontex/</loc>
     <lastmod>2022-11-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -58,12 +67,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/media/</loc>
     <lastmod>2022-08-01T14:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/eu-agencies/</loc>
-    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/public-legitimacy-theloop/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>

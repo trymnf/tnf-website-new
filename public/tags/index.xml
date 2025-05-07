@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Trym Nohr Fjørtoft</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jul 2023 09:49:03 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EU Agencies</title>
+      <link>http://localhost:1313/tags/eu-agencies/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eu-agencies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expertise</title>
+      <link>http://localhost:1313/tags/expertise/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/expertise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Legitimacy</title>
+      <link>http://localhost:1313/tags/legitimacy/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/legitimacy/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Central Bank Independence</title>
       <link>http://localhost:1313/tags/central-bank-independence/</link>
@@ -20,13 +41,6 @@
       <link>http://localhost:1313/tags/inductive-risk/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/inductive-risk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Legitimacy</title>
-      <link>http://localhost:1313/tags/legitimacy/</link>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/legitimacy/</guid>
       <description></description>
     </item>
     <item>
@@ -79,24 +93,10 @@
       <description></description>
     </item>
     <item>
-      <title>Expertise</title>
-      <link>http://localhost:1313/tags/expertise/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/expertise/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Media</title>
       <link>http://localhost:1313/tags/media/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>EU Agencies</title>
-      <link>http://localhost:1313/tags/eu-agencies/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eu-agencies/</guid>
       <description></description>
     </item>
     <item>
