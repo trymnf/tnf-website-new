@@ -11,7 +11,7 @@
       <h1 class="posttitle" itemprop="name headline">
         {{ .Title }}
       </h1>
- <h3 class="citation">{{.Params.author}}, {{ .Params.citation | safeHTML }}</h3>
+ <h3 class="citation">{{if .Params.author}} {{.Params.author}}, {{ end }} {{ .Params.citation | safeHTML }}</h3>
           {{ if .Params.doi }}<h4 class="doi"><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
           {{ if .Params.link }}<h4 class="doi"><a href="{{.Params.link}}">Link ({{ .Params.outlet }})</a>{{ end }} 
           {{ if .Params.file }}<a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; (&rarr; PDF)</a></h4>{{ end }}

@@ -76,7 +76,7 @@
         <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
       </div>
       <span>    
-        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a> {{ if isset .Params "file" }} • <a href="files/papers/{{ .Params.file }}"><strong>PDF</strong></a>{{ end }} {{ if isset .Params "link" }} • <a href="{{ .Params.link }}"><strong>Full story</strong></a> {{ end }}
       </span>
     </li>
 </ul>
