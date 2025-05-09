@@ -26,10 +26,10 @@
     <loc>http://localhost:1313/tags/media/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publications/ekko/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>http://localhost:1313/publications/ekko/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/central-bank-independence/</loc>
