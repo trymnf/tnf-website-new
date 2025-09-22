@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spirits on Trym Nohr Fjørtoft</title>
-    <link>http://localhost:1313/tags/spirits/</link>
-    <description>Recent content in Spirits on Trym Nohr Fjørtoft</description>
+    <title>Comparative Federalism on Trym Nohr Fjørtoft</title>
+    <link>http://localhost:1313/tags/comparative-federalism/</link>
+    <description>Recent content in Comparative Federalism on Trym Nohr Fjørtoft</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spirits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/comparative-federalism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Federal Spirits: Single Markets in Goods in the United States and the European Union and the Case of Spirits Drinks</title>
       <link>http://localhost:1313/publications/publius-spirits/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/publius-spirits/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;&#xA;&lt;p&gt;This article compares the politics of internal market governance in the European Union and the United States by focusing on a shippable but highly regulated “sin” good: distilled spirits. A few generations ago, both arenas governed spirits in highly decentralized and varied ways. Over time, Europe has centralized regulation to increase market openness while the United States has seen little change. Today regulatory differences between American states create higher barriers to trade than those which persist among their European counterparts. Drawing on 102 interviews with firms, associations, and public officials, we explain this divergence by two factors: institutions and ideas. The EU’s institutional agents have encouraged market openness, including mobilizing pro-liberalization European businesses, while American firms have no similar public allies. Ideationally, European businesspeople are broadly comfortable with centralized enforcement of single market rules, while Americans view federal enforcement as unrealistic or illegitimate.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Five minutes on trade in spirits</title>
-      <link>http://localhost:1313/blog/research-relay/</link>
-      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/research-relay/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a short presentation I did at ARENA&amp;rsquo;s 30th anniversary in November 2024. I presented some of my favorite findings from the SINGLEMARKETS project. Mine was one of many presentations&amp;mdash;you can see all of them on &lt;a href=&#34;https://www.sv.uio.no/arena/english/about/news/news/2024/researcher-relay.html&#34;&gt;ARENA&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;video width=&#34;640&#34; height=&#34;360&#34; controls&gt;&#xA;    &lt;source src=&#34;https://www.sv.uio.no/arena/english/about/news/news/2024/fjortoft-anniversary-conference.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;    Your browser does not support the video tag.&#xA;&lt;/video&gt;</description>
     </item>
   </channel>
 </rss>
