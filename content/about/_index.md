@@ -1,4 +1,8 @@
-
++++
+title="About"
+menu="main"
+weight=10
++++
 
 
 ![Photo: Amund Aasbrenn/UiO](/images/tnf_2024.jpg "Photo: Amund Aasbrenn/UiO")

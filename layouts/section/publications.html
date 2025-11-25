@@ -1,46 +1,58 @@
 {{ define "main"}}
-<div id="archive">
+<content>
 
   <h2>Peer-reviewed articles</h2>
 
+<ul class="blog-posts">
 {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
 
 {{ range .Pages.ByPublishDate.Reverse }}
-
-<ul class="post-list">
-  <li class="post-item">
+  <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006" }}'>
+            {{ .Date.Format (default "2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+    </li>
+  <!-- <li>
       <div class="meta">
         <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
       </div>
       <span>    
         <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
       </span>
-    </li>
-</ul>
-
+    </li> -->
 {{ end }}
-{{ end }}  
+{{ end }} 
+</ul>
+ 
   
 
 <h2>Other writings</h2>
   
+<ul class="blog-posts">
 {{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
-
 {{ range .Pages.ByPublishDate.Reverse }}
 
-<ul class="post-list">
-  <li class="post-item">
-      <div class="meta">
-        <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
-      </div>
-      <span>    
-        <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+  <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
       </span>
+      <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
     </li>
-</ul>
+  
 
 {{ end }}
 {{ end }}
+</ul>
+
 
 <!-- Uncomment to add working papers: -->
 
@@ -66,28 +78,41 @@
 
 <h2>Media appearances</h2>
   
-{{ range (where .Data.Pages "Type" "media").GroupByDate "2006" "desc" }}
+<ul class="blog-posts">
+  {{ range (where .Data.Pages "Type" "media").GroupByDate "2006" "desc" }}
 
 {{ range .Pages.ByPublishDate.Reverse }}
-
-<ul class="post-list">
-  <li class="post-item">
+  <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      
+      <div><a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+      
+      {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">(PDF)</a> {{ end }} {{ if isset .Params "link" }}<a href="{{ .Params.link }}">(link)</a> {{ end }}</div>
+    </li>
+  <!-- <li class="post-item">
       <div class="meta">
         <time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
       </div>
       <span>    
         <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a> {{ if isset .Params "file" }} • <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"><strong>PDF</strong></a>{{ end }} {{ if isset .Params "link" }} • <a href="{{ .Params.link }}"><strong>Full story</strong></a> {{ end }}
       </span>
-    </li>
+    </li> -->
+{{ end }}
+{{ end }}
 </ul>
 
-{{ end }}
-{{ end }}
+
 
 
 
   <!-- {{ partial "pagination.html" . }} -->
-</div>
+</content>
 {{ end }}
 
 
