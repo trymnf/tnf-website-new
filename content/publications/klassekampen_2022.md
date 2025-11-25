@@ -10,7 +10,7 @@ author: Mathias Gjesdal Hammer
 status: Published
 
 type: media
-citation: "&ldquo;Farligere enn noensinne&rdquo;, <em>Klassekampen,</em> 1 August 2022."
+citation: "&ldquo;Farligere enn noensinne&rdquo;, <em>Klassekampen</em>."
 tags: [Frontex, media]
 comments: no
 publishdate: 2022-08-01

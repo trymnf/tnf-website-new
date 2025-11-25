@@ -10,7 +10,7 @@ author: Martin Uleberg
 status: Published
 
 type: media
-citation: "&ldquo;EU ser mot yttergrensa&rdquo;, <em>Klassekampen,</em> 13 November 2020."
+citation: "&ldquo;EU ser mot yttergrensa&rdquo;, <em>Klassekampen.</em>"
 tags: [Frontex, media]
 comments: no
 publishdate: 2020-11-13

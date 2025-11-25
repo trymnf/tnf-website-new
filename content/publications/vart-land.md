@@ -9,7 +9,7 @@ outlet: Vårt Land
 author: Ismail Burak Akkan
 status: Published
 
-citation: "&ldquo;EUs grensepoliti saksøkes for å presse flyktninger på havet&rdquo;, <em>Vårt Land</em>, 28 May 2021"
+citation: "&ldquo;EUs grensepoliti saksøkes for å presse flyktninger på havet&rdquo;, <em>Vårt Land</em>."
 type: media
 tags: 
     - Frontex

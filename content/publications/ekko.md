@@ -10,7 +10,7 @@ link: https://radio.nrk.no/podkast/ekko_-_et_aktuelt_samfunnsprogram/l_19f7e881-
 status: Published
 
 type: media
-citation: "&ldquo;Spør Ekko: Studentopprør i Europa&rdquo;, <em>Ekko i P2,</em> 2 April 2025."
+citation: "&ldquo;Spør Ekko: Studentopprør i Europa&rdquo;, <em>Ekko i P2</em>."
 tags: [democracy, media]
 comments: no
 publishdate: 2025-05-08

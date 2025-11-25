@@ -10,7 +10,7 @@ author: Sten Inge Jørgensen
 status: Published
 
 type: media
-citation: "&ldquo;Frontex i skuddlinjen&rdquo;, <em>Morgenbladet,</em> 19 February 2021."
+citation: "&ldquo;Frontex i skuddlinjen&rdquo;, <em>Morgenbladet.</em>"
 tags: [Frontex, media]
 comments: no
 publishdate: 2021-02-19
