@@ -1,24 +1,15 @@
----
-title: "What drives public acceptance of expert agencies?"
-date: 2022-02-14
-draft: false
-fave: false
-author: 
-    - Trym Nohr Fjørtoft
-    - Asimina Michailidou
-status: Published
-
-type: posts
-link: https://theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/
-citation: "What drives public acceptance of expert agencies?"
-tags: 
-    - Legitimacy
-    - Expertise
-    - "EU agencies"
-comments: no
-publishdate: 2022-02-14
-abstract: true
----
++++
+title= "What drives public acceptance of expert agencies?"
+date= "2022-02-14"
+draft= false
+fave= false
+author= "Trym Nohr Fjørtoft, Asimina Michailidou"
+status= "Published"
+link= "https=//theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/"
+citation= "What drives public acceptance of expert agencies?"
+tags= ["Legitimacy", "Expertise", "EU agencies"]
+publishdate= 2022-02-14
++++
 
 *This post is written with Asimina Michailidou and was first published at [The Loop](https://theloop.ecpr.eu/news-media-and-the-construction-of-eu-technocratic-legitimacy/).* It builds on the findings in our [PRX article](/publications/fjortoft-michailidou-prx/).
 

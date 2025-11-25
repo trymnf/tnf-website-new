@@ -3,18 +3,14 @@ title: "Five minutes on trade in spirits"
 date: 2025-05-07
 draft: false
 fave: false
-author: 
-    - Trym Nohr Fjørtoft
+author: "Trym Nohr Fjørtoft"
 status: Published
-type: posts
-# link: 
 citation: "Five minutes on trade in spirits"
 tags: 
     - spirits
     - "single market"
-comments: no
 publishdate: 2025-05-07
-abstract: true
+
 ---
 
 

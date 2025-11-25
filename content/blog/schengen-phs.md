@@ -1,19 +1,16 @@
 ---
 title: "Kommentar til rapport om Schengen-evalueringene"
 date: 2020-11-19
-draft: false
+draft: true
 fave: false
 author: Trym Nohr Fjørtoft
 status: Published
 
-type: posts
 citation: "Kommentarer til rapporten <em>Schengen evaluation: An educational experience. The example of Norway</em>."
 tags: 
     - Schengen
     - Norway
-comments: no
 publishdate: 2020-11-19
-abstract: true
 ---
 
 *Dette innlegget holdt jeg på lanseringen av rapporten [Schengen evaluation: An educational experience. The example of Norway](https://www.politihogskolen.no/en/forskning/forskningsaktiviteter/schengen-evaluation---an-educational-experience/), 19. november 2020 på Politihøgskolen. Stein Ulrich, Martin Nøkleberg og Helene Gundhus har skrevet rapporten.*

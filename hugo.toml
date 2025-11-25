@@ -23,7 +23,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = 'I&apos;m a political scientist working on single-market governance; democracy, delegation and the legitimacy of unelected bodies; and migration and border control. I work as a postdoctoral fellow at <a href="https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html" target=_blank>ARENA Centre for European Studies</a>, University of Oslo, as part of the <a href="https://www.sv.uio.no/arena/english/research/projects/singlemarkets/">SINGLEMARKETS</a> project.'
+  description = 'I&apos;m a political scientist working on political economy; democracy, delegation and the legitimacy of unelected bodies; and migration and border control. I work as a postdoctoral fellow at <a href="https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html" target=_blank>ARENA Centre for European Studies</a>, University of Oslo, as part of the <a href="https://www.sv.uio.no/arena/english/research/projects/singlemarkets/">SINGLEMARKETS</a> project.'
 
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
@@ -43,7 +43,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
+  hideMadeWithLine = true
 
   # By default, if you want to read more than one blog post you have to always go
   # back to the /blog page.

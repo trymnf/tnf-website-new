@@ -16,4 +16,4 @@ This is me. (Photo: Amund Aasbrenn/UiO)
 
 ### About the website
 
-Powered by [Hugo](http://gohugo.io). Theme modified from [Cactus Theme](https://github.com/monkeyWzr/hugo-theme-cactus). 
+Made with [Hugo ʕ•ᴥ•ʔ Bear](https://github.com/janraasch/hugo-bearblog/).

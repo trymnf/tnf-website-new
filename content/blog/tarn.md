@@ -8,8 +8,6 @@ file:
 doi: 
 link: https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex
 status: Published
-
-type: posts
 citation: 
 tags: [frontex, expertise]
 comments: no
