@@ -1,6 +1,6 @@
 ---
 title: "The EU looks to the external borders"
-date: 2021-05-27T13:24:47+02:00
+date: 2020-11-13
 draft: false
 fave: false
 outlet: Klassekampen

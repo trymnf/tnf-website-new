@@ -1,6 +1,6 @@
 ---
 title: "Morgenbladet"
-date: 2021-05-27T13:24:58+02:00
+date: 2021-02-19
 draft: false
 fave: false
 outlet: Morgenbladet
