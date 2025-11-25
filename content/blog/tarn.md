@@ -6,8 +6,7 @@ draft: false
 fave: true
 file: 
 doi: 
-link: https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex/
-author: Trym Nohr Fjørtoft
+link: https://eutarn.blogactiv.eu/2020/04/10/the-appeal-to-expertise-in-frontex
 status: Published
 
 type: posts

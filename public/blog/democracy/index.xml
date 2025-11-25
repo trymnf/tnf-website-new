@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Democracy on Trym Nohr Fjørtoft</title>
-    <link>http://localhost:1313/blog/democracy/</link>
+    <link>https://www.trymnf.com/blog/democracy/</link>
     <description>Recent content in Democracy on Trym Nohr Fjørtoft</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2025, Trym Nohr Fjørtoft.</copyright>
     <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/democracy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.trymnf.com/blog/democracy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spør Ekko</title>
-      <link>http://localhost:1313/publications/ekko/</link>
+      <link>https://www.trymnf.com/publications/ekko/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/ekko/</guid>
+      <guid>https://www.trymnf.com/publications/ekko/</guid>
       <description>&lt;p&gt;Radio interview in Ekko (in Norwegian) about the ongoing student demonstrations in Serbia and other European countries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond expertise: the public construction of legitimacy for EU agencies</title>
-      <link>http://localhost:1313/publications/fjortoft-michailidou-prx/</link>
+      <link>https://www.trymnf.com/publications/fjortoft-michailidou-prx/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/fjortoft-michailidou-prx/</guid>
+      <guid>https://www.trymnf.com/publications/fjortoft-michailidou-prx/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;How is the power of independent agencies legitimized? This is a central question in modern democratic societies. Earlier research has privileged technical expertise as the predominant source of legitimacy for such agencies. While recent contributions have challenged this assumption, we have seen few attempts to systematically analyze the conditions under which different sources of legitimacy are established in public discourse. We address this gap by proposing a conceptual framework of four legitimation arguments and test their prevalence through an empirical analysis of the public legitimation of EU agencies. We hypothesize that the prevalence of each argument depends on characteristics of the agency, especially its scientific ‘hardness’ and its public salience. We test our hypotheses in three steps. We first combine automated text classification and qualitative content analysis to analyze Swedish news media coverage of three EU agencies, 2005&amp;ndash;2019. In a third step, we quantitatively analyze aggregated data on the Swedish news coverage of all EU agencies 2005&amp;ndash;2019. We find more technical-expertise discourse in coverage of hard-science agencies, and more political-control discourse where agencies are &amp;ldquo;softer&amp;rdquo; or more salient. Our findings are therefore relevant for ongoing normative and empirical discussions on the legitimacy of independent agencies.&lt;/p&gt;</description>
     </item>
   </channel>
