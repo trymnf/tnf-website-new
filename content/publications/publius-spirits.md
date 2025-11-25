@@ -9,7 +9,7 @@ author: "Katarzyna Andrejuk, Trym Nohr Fjørtoft, Craig Parsons, Susanne K Schmi
 status: Published
 type: published
 
-citation: '“Federal Spirits: Single Markets in Goods in the United States and the European Union and the Case of Spirits Drinks.” <em>Publius: The Journal of Federalism</em> 55 (4): 759–86.'
+citation: '“Federal Spirits: Single Markets in Goods in the United States and the European Union and the Case of Spirits Drinks.” <em>Publius: The Journal of Federalism</em> 55 (4).'
 tags: ["European Union", "United States", "political economy"]
 comments: no
 publishdate: 2025-09-22

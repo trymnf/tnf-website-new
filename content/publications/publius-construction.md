@@ -9,7 +9,7 @@ author: "Katarzyna Andrejuk, Trym Nohr Fjørtoft, Craig Parsons, Susanne K Schmi
 status: Published
 type: published
 
-citation: '“American Services in European Perspective: Why Do Americans Not Care about Interstate Barriers in Construction?.” <em>Publius: The Journal of Federalism</em> 55 (4): 732–58.'
+citation: '“American Services in European Perspective: Why Do Americans Not Care about Interstate Barriers in Construction?.” <em>Publius: The Journal of Federalism</em> 55 (4).'
 tags: ["European Union", "United States", "political economy"]
 comments: no
 publishdate: 2025-09-22
