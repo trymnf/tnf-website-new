@@ -13,7 +13,7 @@ type: media
 citation: "&ldquo;Spør Ekko: Studentopprør i Europa&rdquo;, <em>Ekko i P2</em>."
 tags: [democracy, media]
 comments: no
-publishdate: 2025-05-08
+publishdate: 2025-04-02
 abstract: true
 ---
 

@@ -11,12 +11,14 @@
 {{ end }}{{ end }}
 
 <h4 class="citation">{{.Params.author}}. {{ .Params.citation | safeHTML }}</h4>
-          {{ if .Params.doi }}<h4 class="doi"><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
-          {{ if .Params.link }}<h4 class="doi"><a href="{{.Params.link}}">Link ({{ .Params.outlet }})</a>{{ end }} 
-          {{ if .Params.file }}<a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; (&rarr; PDF)</a></h4>{{ end }}
-          {{ if .Params.data }}<a href="{{.Params.data}}"><h4 class="doi">(&rarr; Code & data)</h4></a>{{ end }}
+<h4>
+          {{ if .Params.doi }}<a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
+          {{ if .Params.link }}<a href="{{.Params.link}}">Link ({{ .Params.outlet }})</a>{{ end }} 
+          {{ if .Params.file }}<a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; (&rarr; PDF)</a>{{ end }}
+          {{ if .Params.data }}<a href="{{.Params.data}}">(&rarr; Code & data)</a>{{ end }}
           {{ if .Params.buy }} {{ .Params.buy | safeHTML }} {{ end }}
-      
+      </h4>
+
       <div class="meta">
         {{ if (or (isset .Site "author") (isset .Site "title"))}}
         <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">

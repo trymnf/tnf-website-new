@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ if eq .Type "blog" }}{{ if not .Params.menu }}
+<h1>{{ .Title }}</h1>
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "02 Jan, 2006" }}'>
+      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+    </time>
+  </i>
+</p>
+{{ end }}{{ end }}
+
+ <h4 class="citation">{{if .Params.author}} {{.Params.author}}, {{ end }} {{ .Params.citation | safeHTML }}</h4>
+          <h4>
+          {{ if .Params.doi }} <a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
+          {{ if .Params.link }}<a href="{{.Params.link}}">Link ({{ .Params.outlet }})</a>{{ end }} 
+          {{ if .Params.file }}<a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; (&rarr; PDF)</a>{{ end }}
+          {{ if .Params.buy }} {{ .Params.buy | safeHTML }} {{ end }}
+        </h4>
+      
+      <div class="meta">
+        {{ if (or (isset .Site "author") (isset .Site "title"))}}
+        <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            {{ if isset .Site "author" }}
+              {{ .Site.Author }}
+            {{ else if isset .Site "title" }}
+              {{ .Site.Title }}
+            {{ end }}
+          </span>
+        </span>
+        {{ end }}
+        <div class="postdate">
+          {{ $dataFormat := .Site.Params.dateFormat | default "02 Jan, 2006" }}
+          <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Params.publishdate.Format $dataFormat }}</time>
+          {{ if (and .Site.Params.show_updated (ne .Lastmod .Date)) }}
+            (Updated: <time datetime="{{ .Lastmod }}" itemprop="dateModified">{{ .Lastmod.Format $dataFormat }}</time>)
+          {{ end }}
+        </div>
+        
+        {{ if gt .Params.categories 0 }}
+        <div class="article-category">
+            <i class="fas fa-archive"></i>
+            {{ range $index, $value := .Params.categories }}
+            {{ if gt $index 0 }} {{ print ", " }} {{ end }}
+            <a class="category-link" href="{{ "/categories/" | relLangURL }}{{ $value | urlize }}">{{ $value }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </header>
+
+  
+    <content>
+      {{ .Content }}
+    </content>
+
+{{ if eq .Type "blog" }}{{ if (.Param "enablePostNavigator")}}
+{{- partial "post_navigator.html" . -}}
+{{ end }}{{ end }}
+
+<p>
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+{{ end }}
