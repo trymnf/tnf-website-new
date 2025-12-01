@@ -53,6 +53,7 @@
     --link-color: rgb(36, 131, 123);
     --visited-color: rgb(94, 64, 157);
     --blockquote-color: #6F6E69;
+    --text-muted: rgb(111, 110, 105);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -63,6 +64,7 @@
       --link-color: rgb(58, 169, 159);
       --visited-color: rgb(139, 126, 200);
       --blockquote-color: #CECDC3;
+      --text-muted: rgb(135, 133, 128);
     }
   }
 
@@ -120,6 +122,7 @@
     font-family: monospace;
     font-style: normal;
     font-size: var(--font-scale);
+    color: var(--text-muted);
   }
 
   main {
@@ -200,6 +203,23 @@
     color: var(--visited-color);
   }
 
+   
+  ul.publications {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.publications li {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+
+  ul.publications li span {
+    flex: 0 0 60px;
+  }
+
+   
+
 </style>
 
 </head>
@@ -224,7 +244,7 @@
 
   <h2>Peer-reviewed articles</h2>
 
-<ul class="blog-posts">
+<ul class="publications">
 
 
 
@@ -236,7 +256,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/publius-construction/"> “American Services in European Perspective: Why Do Americans Not Care about Interstate Barriers in Construction?.” <em>Publius: The Journal of Federalism</em> 55 (4). </a>
+      <div> “American Services in European Perspective: Why Do Americans Not Care about Interstate Barriers in Construction?.” <em>Publius: The Journal of Federalism</em> 55 (4). <a href="http://localhost:1313/files/papers/pjaf027.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/publius-construction/">&rarr; Abstract</a></div>
     </li>
   
 
@@ -248,7 +268,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/publius-spirits/"> “Federal Spirits: Single Markets in Goods in the United States and the European Union and the Case of Spirits Drinks.” <em>Publius: The Journal of Federalism</em> 55 (4). </a>
+      <div> “Federal Spirits: Single Markets in Goods in the United States and the European Union and the Case of Spirits Drinks.” <em>Publius: The Journal of Federalism</em> 55 (4). <a href="http://localhost:1313/files/papers/pjaf033.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/publius-spirits/">&rarr; Abstract</a></div>
     </li>
   
 
@@ -263,7 +283,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/inductive-risk-bjps/"> “Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em> 54 (2). </a>
+      <div> “Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em> 54 (2). <a href="http://localhost:1313/files/papers/Fjortoft2024_inductive-risk-and-the-legitimacy-of-non-majoritarian-institutions.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/inductive-risk-bjps/">&rarr; Abstract</a></div>
     </li>
   
 
@@ -275,7 +295,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/fjortoft-sandven-jcms/"> &ldquo;Symmetry in the Delegation of Power as a Legitimacy Criterion.&rdquo; <em>Journal of Common Market Studies</em> 61 (4). (With Hallvard Sandven.) </a>
+      <div> &ldquo;Symmetry in the Delegation of Power as a Legitimacy Criterion.&rdquo; <em>Journal of Common Market Studies</em> 61 (4). (With Hallvard Sandven.) <a href="http://localhost:1313/files/papers/fjortoft-sandven_2022_JCMS.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/fjortoft-sandven-jcms/">&rarr; Abstract</a></div>
     </li>
   
 
@@ -290,7 +310,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/frontex/"> “More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis.” <em>Regulation & Governance</em> 16 (2). </a>
+      <div> “More Power, More Control: The Legitimizing Role of Expertise in Frontex after the Refugee Crisis.” <em>Regulation & Governance</em> 16 (2). <a href="http://localhost:1313/files/papers/Fjortoft2020-Frontex-RG.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/frontex/">&rarr; Abstract</a></div>
     </li>
   
 
@@ -305,7 +325,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="http://localhost:1313/publications/fjortoft-michailidou-prx/"> “Beyond Expertise: The Public Construction of Legitimacy for EU Agencies.” <em>Political Research Exchange</em> 3 (1). (With Asimina Michailidou.) </a>
+      <div> “Beyond Expertise: The Public Construction of Legitimacy for EU Agencies.” <em>Political Research Exchange</em> 3 (1). (With Asimina Michailidou.) <a href="http://localhost:1313/files/papers/Fjortoft_Michailidou_2021_PRX.pdf">&rarr;&nbsp;PDF</a>&ensp; <a class="" href="http://localhost:1313/publications/fjortoft-michailidou-prx/">&rarr; Abstract</a></div>
     </li>
   
 

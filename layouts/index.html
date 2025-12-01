@@ -8,7 +8,7 @@
 
 {{ $dataFormat := .Site.Params.dateFormat | default "2006" }}
 
-<ul class ="blog-posts">
+<ul class ="publications">
 {{ range (sort (where .Site.RegularPages "Section" "in" (slice "publications")) "Date" "desc") }}  
 
   {{ if .Params.fave }}
@@ -20,9 +20,9 @@
     <span><i><time datetime="{{ time .Params.publishdate }}" itemprop="datePublished">{{ .Params.publishdate.Format $dataFormat }}</time></i></span>
     
     <div>
-    {{ .Params.citation | safeHTML }}  <br/>   
-    {{ if isset .Params "file" }}<a href="files/papers/{{ .Params.file }}">&rarr; PDF</a>{{ end }}&ensp; 
-    {{ if isset .Params "abstract" }} <a href="{{ .Permalink }}">&rarr; Abstract</a>  {{ end }}
+    {{ .Params.citation | safeHTML }}  
+    {{ if isset .Params "file" }}<a href="files/papers/{{ .Params.file }}">&rarr;&nbsp;PDF</a>{{ end }}&ensp; 
+    
   </div>
   </li>
 

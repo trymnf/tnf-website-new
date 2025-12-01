@@ -63,6 +63,7 @@ In political discourse, it is common to claim that non-majoritarian institutions
     --link-color: rgb(36, 131, 123);
     --visited-color: rgb(94, 64, 157);
     --blockquote-color: #6F6E69;
+    --text-muted: rgb(111, 110, 105);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -73,6 +74,7 @@ In political discourse, it is common to claim that non-majoritarian institutions
       --link-color: rgb(58, 169, 159);
       --visited-color: rgb(139, 126, 200);
       --blockquote-color: #CECDC3;
+      --text-muted: rgb(135, 133, 128);
     }
   }
 
@@ -130,6 +132,7 @@ In political discourse, it is common to claim that non-majoritarian institutions
     font-family: monospace;
     font-style: normal;
     font-size: var(--font-scale);
+    color: var(--text-muted);
   }
 
   main {
@@ -209,6 +212,23 @@ In political discourse, it is common to claim that non-majoritarian institutions
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
+
+   
+  ul.publications {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.publications li {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+
+  ul.publications li span {
+    flex: 0 0 60px;
+  }
+
+   
 
 </style>
 

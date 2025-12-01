@@ -3,7 +3,7 @@
 
   <h2>Peer-reviewed articles</h2>
 
-<ul class="blog-posts">
+<ul class="publications">
 {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
 
 {{ range .Pages.ByPublishDate.Reverse }}
@@ -15,7 +15,7 @@
           </time>
         </i>
       </span>
-      <a class="" href="{{ .Permalink }}">{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}</a>
+      <div>{{ if .Params.citation }} {{ .Params.citation | safeHTML }} {{ else }} {{ if .Title }} {{ .Title}} {{ else }} Untitled {{ end }} {{end }}{{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&rarr;&nbsp;PDF</a>{{ end }}&ensp; <a class="" href="{{ .Permalink }}">&rarr; Abstract</a></div>
     </li>
   <!-- <li>
       <div class="meta">
