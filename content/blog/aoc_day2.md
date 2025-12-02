@@ -53,7 +53,7 @@ data
 
 
 ```R
- data |>  
+ data |>
   filter(str_detect(range, "^([0-9]+)\\1$")) |>
   summarise(sum(range))
 ```
