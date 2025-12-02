@@ -1,5 +1,12 @@
 /* Generated using: hugo gen chromastyles --style=friendly */
 
+code {
+      text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 /* Background */ .bg { background-color:rgb(255, 252, 240); }
 /* PreWrapper */ .chroma { background-color:rgb(242, 240, 229); }
 /* LineLink */ .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
