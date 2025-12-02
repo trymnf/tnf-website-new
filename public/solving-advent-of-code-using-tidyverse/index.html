@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Solving Advent of Code using tidyverse | Trym Nohr Fjørtoft</title>
+<meta name="title" content="Solving Advent of Code using tidyverse" />
+<meta name="description" content="When I find the time, I like to try solving the Advent of
+Code puzzles. I prefer to take a tidy, data-like approach wherever possible (because that&rsquo;s all I know). Let&rsquo;s see how
+far that gets me this year.
+Day 2 asks us to find numbers that contain patterns (like 99 or 1188511885) within ranges of numbers. This task is very friendly to a tidyverse approach.
+The separate functions from tidyr and a little regex made today&rsquo;s solution clean and straightforward." />
+<meta name="keywords" content="advent of code,R," />
+
+
+<meta property="og:url" content="http://localhost:1313/solving-advent-of-code-using-tidyverse/">
+  <meta property="og:site_name" content="Trym Nohr Fjørtoft">
+  <meta property="og:title" content="Solving Advent of Code using tidyverse">
+  <meta property="og:description" content="When I find the time, I like to try solving the Advent of Code puzzles. I prefer to take a tidy, data-like approach wherever possible (because that’s all I know). Let’s see how far that gets me this year.
+Day 2 asks us to find numbers that contain patterns (like 99 or 1188511885) within ranges of numbers. This task is very friendly to a tidyverse approach.
+The separate functions from tidyr and a little regex made today’s solution clean and straightforward.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-12-02T10:49:39+01:00">
+    <meta property="article:modified_time" content="2025-12-02T10:49:39+01:00">
+    <meta property="article:tag" content="Advent of Code">
+    <meta property="article:tag" content="R">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Solving Advent of Code using tidyverse">
+  <meta name="twitter:description" content="When I find the time, I like to try solving the Advent of Code puzzles. I prefer to take a tidy, data-like approach wherever possible (because that’s all I know). Let’s see how far that gets me this year.
+Day 2 asks us to find numbers that contain patterns (like 99 or 1188511885) within ranges of numbers. This task is very friendly to a tidyverse approach.
+The separate functions from tidyr and a little regex made today’s solution clean and straightforward.">
+
+
+
+
+  <meta itemprop="name" content="Solving Advent of Code using tidyverse">
+  <meta itemprop="description" content="When I find the time, I like to try solving the Advent of Code puzzles. I prefer to take a tidy, data-like approach wherever possible (because that’s all I know). Let’s see how far that gets me this year.
+Day 2 asks us to find numbers that contain patterns (like 99 or 1188511885) within ranges of numbers. This task is very friendly to a tidyverse approach.
+The separate functions from tidyr and a little regex made today’s solution clean and straightforward.">
+  <meta itemprop="datePublished" content="2025-12-02T10:49:39+01:00">
+  <meta itemprop="dateModified" content="2025-12-02T10:49:39+01:00">
+  <meta itemprop="wordCount" content="304">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Advent of Code,R">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-secondary: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-scale: 1.1em;
+    --background-color: #FFFCF0;
+    --heading-color: #000000;
+    --text-color: ##100F0F;
+    --link-color: rgb(36, 131, 123);
+    --visited-color: rgb(94, 64, 157);
+    --blockquote-color: #6F6E69;
+    --text-muted: rgb(111, 110, 105);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #100F0F;
+      --heading-color: #eee;
+      --text-color: #CECDC3;
+      --link-color: rgb(58, 169, 159);
+      --visited-color: rgb(139, 126, 200);
+      --blockquote-color: #CECDC3;
+      --text-muted: rgb(135, 133, 128);
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    text-rendering: optimizeLegibility;
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+    color: var(--link-color);
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: var(--font-scale);
+    color: var(--text-muted);
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid rgb(230, 228, 217);
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  } 
+
+  .title {
+    color: var(--heading-color);
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+   
+  ul.publications {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.publications li {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+
+  ul.publications li span {
+    flex: 0 0 60px;
+  }
+
+   
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Trym Nohr Fjørtoft</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/publications/">Publications</a>
+
+<a href="/about/">About</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Solving Advent of Code using tidyverse</h1>
+<p>
+  <i>
+    <time datetime='2025-12-02'>
+      02 Dec, 2025
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>When I find the time, I like to try solving the <a href="https://adventofcode.com/2025/">Advent of
+Code</a> puzzles. I prefer to take a tidy, data-like approach wherever possible (because that&rsquo;s all I know). Let&rsquo;s see how
+far that gets me this year.</p>
+<p><a href="https://adventofcode.com/2025/day/2">Day 2</a> asks us to find numbers that contain patterns (like <code>99</code> or <code>1188511885</code>) within ranges of numbers. This task is <em>very</em> friendly to a tidyverse approach.</p>
+<p>The <code>separate</code> functions from tidyr and a little regex made today&rsquo;s solution clean and straightforward.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#06287e">library</span>(tidyverse)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>input <span style="color:#666">&lt;-</span> <span style="color:#4070a0">&#34;11-22,95-115,998-1012,1188511880-1188511890,222220-222224,1698522-1698528,446443-446449,38593856-38593862,565653-565659,824824821-824824827,2121212118-2121212124&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>data <span style="color:#666">&lt;-</span> <span style="color:#06287e">tibble</span>(input <span style="color:#666">=</span> input) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>  <span style="color:#06287e">separate_longer_delim</span>(input, <span style="color:#4070a0">&#34;,&#34;</span>) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>  <span style="color:#06287e">separate</span>(input, into <span style="color:#666">=</span> <span style="color:#06287e">c</span>(<span style="color:#4070a0">&#34;start&#34;</span>, <span style="color:#4070a0">&#34;end&#34;</span>), sep <span style="color:#666">=</span> <span style="color:#4070a0">&#34;-&#34;</span>) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  <span style="color:#06287e">rowwise</span>() <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>  <span style="color:#06287e">mutate</span>(range <span style="color:#666">=</span> <span style="color:#06287e">list</span>(start<span style="color:#666">:</span>end)) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  <span style="color:#06287e">unnest_longer</span>(range)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>data
+</span></span></code></pre></div><pre><code># A tibble: 106 × 3
+   start end   range
+   &lt;chr&gt; &lt;chr&gt; &lt;int&gt;
+ 1 11    22       11
+ 2 11    22       12
+ 3 11    22       13
+ 4 11    22       14
+ 5 11    22       15
+ 6 11    22       16
+ 7 11    22       17
+ 8 11    22       18
+ 9 11    22       19
+10 11    22       20
+# ℹ 96 more rows
+</code></pre>
+<p><code>range</code> here gives us all the values in all the ranges. Now it&rsquo;s just a matter of finding the repetitions using regex, and adding them all together.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span> data <span style="color:#666">|&gt;</span>  
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#06287e">filter</span>(<span style="color:#06287e">str_detect</span>(range, <span style="color:#4070a0">&#34;^([0-9]+)\\1$&#34;</span>)) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>  <span style="color:#06287e">summarise</span>(<span style="color:#06287e">sum</span>(range))
+</span></span></code></pre></div><pre><code># A tibble: 1 × 1
+  `sum(range)`
+         &lt;int&gt;
+1   1227775554
+</code></pre>
+<p>For part 2, all I needed to add was a <code>+</code> to
+the regex to allow for more than one repetition of the pattern.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#60a0b0;font-style:italic"># Part 2</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#06287e">tibble</span>(input <span style="color:#666">=</span> input) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  <span style="color:#06287e">separate_longer_delim</span>(input, <span style="color:#4070a0">&#34;,&#34;</span>) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  <span style="color:#06287e">separate</span>(input, into <span style="color:#666">=</span> <span style="color:#06287e">c</span>(<span style="color:#4070a0">&#34;start&#34;</span>, <span style="color:#4070a0">&#34;end&#34;</span>), sep <span style="color:#666">=</span> <span style="color:#4070a0">&#34;-&#34;</span>) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>  <span style="color:#06287e">rowwise</span>() <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>  <span style="color:#06287e">mutate</span>(range <span style="color:#666">=</span> <span style="color:#06287e">list</span>(start<span style="color:#666">:</span>end)) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  <span style="color:#06287e">unnest_longer</span>(range) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>  <span style="color:#60a0b0;font-style:italic"># adding a plus here for unlimited repeats</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  <span style="color:#06287e">filter</span>(<span style="color:#06287e">str_detect</span>(range, <span style="color:#4070a0">&#34;^([0-9]+)\\1+$&#34;</span>)) <span style="color:#666">|&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>  <span style="color:#06287e">summarise</span>(<span style="color:#06287e">sum</span>(range))
+</span></span></code></pre></div><pre><code># A tibble: 1 × 1
+  `sum(range)`
+         &lt;dbl&gt;
+1   4174379265
+</code></pre>
+
+</content>
+
+
+
+<p>
+  
+  <a href="http://localhost:1313/blog/advent-of-code/">#Advent of Code</a>
+  
+  <a href="http://localhost:1313/blog/r/">#R</a>
+  
+</p>
+
+  </main>
+  <footer>
+</footer>
+
+  
+</body>
+
+</html>

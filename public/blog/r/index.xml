@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Trym Nohr Fjørtoft</title>
+    <link>http://localhost:1313/blog/r/</link>
+    <description>Recent content in R on Trym Nohr Fjørtoft</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Trym Nohr Fjørtoft.</copyright>
+    <lastBuildDate>Tue, 02 Dec 2025 10:49:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code Using Tidyverse</title>
+      <link>http://localhost:1313/advent-of-code-using-tidyverse/</link>
+      <pubDate>Tue, 02 Dec 2025 10:49:39 +0100</pubDate>
+      <guid>http://localhost:1313/advent-of-code-using-tidyverse/</guid>
+      <description>&lt;p&gt;When I find the time, I like to try solving the &lt;a href=&#34;https://adventofcode.com/2025/&#34;&gt;Advent of&#xA;Code&lt;/a&gt; puzzles. I prefer to take a tidy, data-like approach wherever possible (because that&amp;rsquo;s all I know). Let&amp;rsquo;s see how&#xA;far that gets me this year.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://adventofcode.com/2025/day/2&#34;&gt;Day 2&lt;/a&gt; asks us to find numbers that contain patterns (like &lt;code&gt;99&lt;/code&gt; or &lt;code&gt;1188511885&lt;/code&gt;) within ranges of numbers. This task is &lt;em&gt;very&lt;/em&gt; friendly to a tidyverse approach.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;code&gt;separate&lt;/code&gt; functions from tidyr and a little regex made today&amp;rsquo;s solution clean and straightforward.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
