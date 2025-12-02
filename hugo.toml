@@ -65,4 +65,4 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = false
     lineNumbersInTable = false
     codeFences = true
-    noclasses = false
+    noclasses = true
