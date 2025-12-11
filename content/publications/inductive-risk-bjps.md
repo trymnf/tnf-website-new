@@ -10,8 +10,7 @@ status: Published
 type: published
 
 citation: '“Inductive Risk and the Legitimacy of Non-Majoritarian Institutions.” <em>British Journal of Political Science</em> 54 (2).'
-tags: ["inductive risk", "legitimacy", "central bank independence", "non-majoritarian institutions", "value freedom"]
-comments: no
+tags: ["publications", "theory"]
 publishdate: 2024-03-18
 abstract: true
 ---

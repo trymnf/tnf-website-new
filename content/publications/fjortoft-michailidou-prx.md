@@ -11,7 +11,7 @@ status: Published
 type: published
 
 citation: '“Beyond Expertise: The Public Construction of Legitimacy for EU Agencies.” <em>Political Research Exchange</em> 3 (1). (With Asimina Michailidou.)'
-tags: [legitimacy, expertise, democracy, "EU agencies"]
+tags: ["publications", "text analysis"]
 comments: no
 publishdate: 2021-12-21
 abstract: true

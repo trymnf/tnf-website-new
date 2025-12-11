@@ -10,7 +10,7 @@ status: Published
 type: published
 
 citation: '&ldquo;Symmetry in the Delegation of Power as a Legitimacy Criterion.&rdquo; <em>Journal of Common Market Studies</em> 61 (4). (With Hallvard Sandven.)'
-tags: ["border control", "delegation", "EASO", "Frontex", "legitimacy", "migration"]
+tags: ["publications", "theory", "Frontex"]
 comments: no
 publishdate: 2023-06-27
 abstract: true

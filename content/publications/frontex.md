@@ -14,7 +14,7 @@ tag: Frontex
 comments: no
 publishdate: 2022-11-17
 abstract: true
-tags: [Frontex, expertise, legitimacy, border control]
+tags: ["publications", "Frontex"]
 ---
 
 # Abstract
