@@ -9,4 +9,4 @@ I'm a political scientist working on democracy, delegation and the legitimacy of
 
 ---
 
-[email](mailto:trymnf@uio.no) | [bluesky](https://bsky.app/profile/trymnf.bsky.social) | [google scholar](https://scholar.google.com/citations?user=QzKZFhYAAAAJ) | [github](https://github.com/trymnf)
+[email](mailto:trymnf@uio.no) | [bluesky](https://bsky.app/profile/trymnf.com) | [google scholar](https://scholar.google.com/citations?user=QzKZFhYAAAAJ) | [github](https://github.com/trymnf)
