@@ -11,7 +11,7 @@ type= "published"
 
 citation= '“Technical Legitimacy.” <em>Political Studies</em> (forthcoming).'
 tags= ["publications"]
-publishdate= 2025-12-06
+publishdate= 2026-01-16
 abstract= true
 +++
 
