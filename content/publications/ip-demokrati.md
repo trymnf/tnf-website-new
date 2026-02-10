@@ -1,18 +1,19 @@
 +++
 title = "Demokratiets stilling i Europa – hva gjør EU, og kan Norge bidra?"
-date = "2026-01-16T10:38:21+01:00"
+date =2026-02-10
 
-draft= true
+draft=false
 fave= true
 
 doi= "10.23865/intpol.v84.7632"
+file="Fjortoft-Fossum_2026_IP.pdf"
 author= "John Erik Fossum and Trym Nohr Fjørtoft"
 status= "Published"
 type= "published"
 
-citation= '“Demokratiets stilling i Europa – hva gjør EU, og kan Norge bidra?” <em>Internasjonal Politikk</em> (forthcoming).'
+citation= '“Demokratiets stilling i Europa – hva gjør EU, og kan Norge bidra?” <em>Internasjonal Politikk</em> 84 (1).'
 tags= ["publications", "democracy"]
-publishdate= 2026-01-16T10:38:21+01:00
+publishdate= 2026-02-10
 abstract= true
 
 # description is optional
