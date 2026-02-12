@@ -1,5 +1,5 @@
 +++
-title = "Demokratiets stilling i Europa – hva gjør EU, og kan Norge bidra?"
+title = "Demokratiets stilling i Europa – hva gjør EU? Hva er Norges rolle?"
 date =2026-02-10
 
 draft=false
@@ -11,7 +11,7 @@ author= "John Erik Fossum and Trym Nohr Fjørtoft"
 status= "Published"
 type= "published"
 
-citation= '“Demokratiets stilling i Europa – hva gjør EU, og kan Norge bidra?” <em>Internasjonal Politikk</em> 84 (1).'
+citation= '“Demokratiets stilling i Europa – hva gjør EU? Hva er Norges rolle?” <em>Internasjonal Politikk</em> 84 (1).'
 tags= ["publications", "democracy"]
 publishdate= 2026-02-10
 abstract= true
