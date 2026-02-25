@@ -1,5 +1,5 @@
 +++
-title = "Delegation without a coherent people: Non-Majoritarianism in EU and US Single Market Governance."
+title = "Delegation without a Coherent Nation: Non-Majoritarianism in EU and US Single Market Governance."
 date = 2026-02-17
 
 draft= false
@@ -12,7 +12,7 @@ author= "Trym Nohr Fjørtoft"
 status= "Published"
 type= "published"
 
-citation= '“Delegation without a coherent people: Non-Majoritarianism in EU and US Single Market Governance.” <em>Comparative European Politics</em> (forthcoming).'
+citation= '“Delegation Without a Coherent Nation: Non-Majoritarianism in EU and US Single Market Governance.” <em>Comparative European Politics</em> (forthcoming).'
 tags= ["publications", "delegation"]
 publishdate= 2026-02-17
 abstract= true
