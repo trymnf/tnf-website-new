@@ -15,15 +15,14 @@ This is me. (Photo: Amund Aasbrenn/UiO)
 
 ### What I'm doing *now*
 
-Last updated: 5 Jan 2026
+Last updated: 6 March 2026
 
-**Working:** Trying to apply for funding for a project on democracy and bureaucracy. Finishing a few papers with good co-author-friends.
+**Working:** Teaching a Bachelor's thesis seminar. Writing about bureaucracy and democracy. Presenting work in Bordeaux in March. 
 
 **Reading:** 
 
-- *In the Freud Archives* by Janet Malcolm (★★★★★)
-- *How to End a Story* by Helen Garner (★★★★½)
-- *Hyperpolitikk* by Anton Jäger (★★★★)
+- *A Supposedly Fun Thing I'll Never Do Again* by David Foster Wallace. 
+- *Political Argument* by Brian Barry. 
 
 ---
 
