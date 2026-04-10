@@ -15,14 +15,14 @@ This is me. (Photo: Amund Aasbrenn/UiO)
 
 ### What I'm doing *now*
 
-Last updated: 6 March 2026
+Last updated: 10 Apr 2026
 
-**Working:** Teaching a Bachelor's thesis seminar. Writing about bureaucracy and democracy. Presenting work in Bordeaux in March. 
+**Working:** Teaching a Bachelor's thesis seminar. Writing about bureaucracy and democracy. 
 
 **Reading:** 
 
-- *A Supposedly Fun Thing I'll Never Do Again* by David Foster Wallace. 
 - *Political Argument* by Brian Barry. 
+- *Cairos* by Jenny Erpenbeck. 
 
 ---
 
