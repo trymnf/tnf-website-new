@@ -50,21 +50,37 @@
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
+    font-weight: 400;
   }
 
   a {
-    color: var(--link-color);
+    color: var(--text-color);
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   a:hover {
     text-decoration: underline;
+    color: var(--link-color);
+  }
+
+
+  a:has(h1, h2, h3, h4, h5, h6),
+  a:has(h1, h2, h3, h4, h5, h6):hover,
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+  h1 a:hover, 
+  h2 a:hover, 
+  h3 a:hover, 
+  h4 a:hover, 
+  h5 a:hover, 
+  h6 a:hover {
+    text-decoration: none;
   }
 
   nav a {
     margin-right: 8px;
-    color: var(--link-color);
+    color: var(--text-muted);
+    text-decoration: none;
   }
 
   strong,
@@ -86,6 +102,7 @@
 
   main {
     line-height: 1.6;
+    font-weight: 300;
   }
 
   table {
