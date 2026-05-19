@@ -5,7 +5,7 @@ date = 2026-05-18
 draft= false
 fave= true
 
-doi=""
+doi="10.1057/s41295-026-00488-1"
 file="fjortoft_delegation_CEP.pdf"
 
 author= "Trym Nohr Fjørtoft"
