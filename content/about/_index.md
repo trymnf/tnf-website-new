@@ -12,19 +12,6 @@ This is me. (Photo: Amund Aasbrenn/UiO)
 
 [&rarr; CV.](/files/cv.pdf) 
 
-
-### What I'm doing *now*
-
-Last updated: 13 May 2026
-
-**Working:** Teaching a Bachelor's thesis seminar. Writing about bureaucracy and democracy. 
-
-**Reading:** 
-
-- *Political Argument* by Brian Barry. 
-- *Cairos* by Jenny Erpenbeck. 
-- *Transcription* by Ben Lerner. (✰✰✰✰✰) 
-
 ---
 
 ### About the website
