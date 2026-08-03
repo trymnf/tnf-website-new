@@ -5,7 +5,7 @@ weight = 1
 +++
 
 
-I'm a political scientist working on democracy, delegation and the legitimacy of unelected bodies; political economy; and migration and border control. I work as a postdoctoral fellow at [ARENA Centre for European Studies](https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html), University of Oslo.
+I'm a political scientist working on democracy, bureaucracy, and technocracy, delegation and legitimacy, sometimes with a focus on the European Union. I'm an Associate Professor at [Oslo Metropolitan University](https://www.oslomet.no/om/ansatt/trfjo1305/) and a researcher at [ARENA Centre for European Studies, University of Oslo](https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html).
 
 ---
 
