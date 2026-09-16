@@ -5,7 +5,7 @@ weight = 1
 +++
 
 
-I'm a political scientist working on democracy, bureaucracy, and technocracy, delegation and legitimacy, sometimes with a focus on the European Union. I'm an Associate Professor at [Oslo Metropolitan University](https://www.oslomet.no/om/ansatt/trfjo1305/) and a researcher at [ARENA Centre for European Studies, University of Oslo](https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html).
+I'm a political scientist working on democracy, bureaucracy, and technocracy, delegation and legitimacy, sometimes with a focus on the European Union. I'm Associate Professor at [Oslo Metropolitan University](https://www.oslomet.no/om/ansatt/trfjo1305/) and a researcher at [ARENA Centre for European Studies, University of Oslo](https://www.sv.uio.no/arena/english/people/aca/trymnf/index.html).
 
 ---
 
