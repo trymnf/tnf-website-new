@@ -10,7 +10,7 @@ tags: []
 publishdate: 2026-09-18T13:45:53+02:00
 ---
 
-There’s something appealing about the idea that if something feels right, it’s got to be, at some deeper level, wrong. And the corollary: that if something feels wrong, it’s got to be right. 
+We're often tempted to think that if something feels right, it’s got to be, at some deeper level, wrong. And the corollary: that if something feels wrong, it’s got to be right. 
 
 I think this way of thinking pervades a certain strand of centrist, "responsible" politics, and I think it’s a damaging way to think. I’ll call it political masochism.[^1] 
 
